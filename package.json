@@ -1,0 +1,47 @@
+{
+  "name": "@padcom/build-problem-on-mac",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build -w",
+    "preview": "vite build && vite preview"
+  },
+  "devDependencies": {
+    "@padcom/eslint-config-vue": "^0.6.0",
+    "@padcom/nano-css-reset": "^0.1.0",
+    "@padcom/tsconfig": "^0.0.2",
+    "@padcom/vite-config-vue": "^0.0.8",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^10.7.2",
+    "autoprefixer": "^10.4.17",
+    "postcss-nesting": "^12.1.2",
+    "typescript": ">= 3.3.0 < 5.2.0",
+    "vite": "^5.0.12",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.4.15"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@padcom/eslint-config-vue"
+    ]
+  },
+  "dependencies": {
+    "vue-i18n": "^9.13.1"
+  },
+  "homepage": "https://github.com/padcom/build-problem-on-mac#readme",
+  "bugs": {
+    "url": "https://github.com/padcom/build-problem-on-mac/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/build-problem-on-mac.git"
+  }
+}
